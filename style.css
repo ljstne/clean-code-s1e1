@@ -35,7 +35,7 @@
 .task-item {
     width: 56%;
     display: inline-block;
-    flex-grow: 1
+    flex-grow: 1;
 }
 
 .add-task__input-container {
@@ -137,7 +137,7 @@ input,button{
 }
 
 .task-list > .task__input {
-    width: 226px
+    width: 226px;
 }
 
 .btn__img {
@@ -160,12 +160,12 @@ input,button{
 /* Edit Task */
 
 .edit-task__input, .completed__input {
-    display: none
+    display: none;
 }
 
 .edit-task__form .edit-task__input {
     display: inline-block;
-    width: 224px
+    width: 224px;
 }
 
 .edit-task__form .task__label {
