@@ -47,11 +47,13 @@ ul {
     padding: 0px;
 }
 
-li, h3 {
+li,
+h3 {
     list-style: none;
 }
 
-input,button{
+input,
+button{
     outline: none;
 }
 
@@ -159,7 +161,8 @@ input,button{
 
 /* Edit Task */
 
-.edit-task__input, .completed__input {
+.edit-task__input,
+.completed__input {
     display: none;
 }
 
