@@ -8,22 +8,22 @@
 <body class="body">
   <header class="header"><img class="header__img" src="./eisenhower-matrix.jpg" alt="The Eisenhower matrix: How to make decisions on what's urgent and important. The graph shows 4 steps: do, plan, delegate, eliminate; steps are divided into urgent, important and not urgent, not important."><a class="header__link" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a></header> 
   <main class="main">
-    <section>
-      <h3 id="add-item"><label class="add-item-heading" for="add-task__input">Add Item</label>
-        <div class="add-task__input-container"><input id="add-task__input" class="task__input task-item" type="text"><button class="btn">Add</button></div>
-      </h3>
+    <section class="add-task">
+      <h3 id="add-item"><label class="add-task__heading" for="add-task__input">Add Item</label>      </h3>
+        <div class="add-task__input-container"><input id="add-task__input" class="add-task__input task-input task-item" type="text"><button class="btn">Add</button></div>
+
     </section>
-    <section>
+    <section class="edit-tasks">
       <h3 class="h3">Todo</h3>
       <ul id="to-do" class="to-do__list">
-        <li class="task-list"><input class="task-list__checkbox" type="checkbox"><label class="task__label task-item">Pay Bills</label><input type="text" class="edit-task__input task__input task-item"><button class="edit-button btn">Edit</button><button class="delete-button btn"><img class="btn__img" src="./remove.svg" alt="Remove item button"></button></li>
-        <li class="edit-task__form task-list"><input type="checkbox"><label class="task__label task-item">Go Shopping</label><input type="text" value="Go Shopping" class="edit-task__input task__input task-item"><button class='edit-button btn'>Save</button><button class="delete-button btn"><img class="btn__img" src="./remove.svg" alt="Remove item button"></button></li>
+        <li class="task-list"><input class="checkbox" type="checkbox"><label class="task-label task-item">Pay Bills</label><input type="text" class="edit-tasks__input task-input task-item"><button class="edit-button btn">Edit</button><button class="delete-button btn"><img class="btn__img" src="./remove.svg" alt="Remove item button"></button></li>
+        <li class="edit-tasks__form task-list"><input type="checkbox" class="checkbox"><label class="task-label task-item">Go Shopping</label><input type="text" value="Go Shopping" class="edit-tasks__input task-input task-item"><button class='edit-button btn'>Save</button><button class="delete-button btn"><img class="btn__img" src="./remove.svg" alt="Remove item button"></button></li>
       </ul>
     </section>
-    <section>
+    <section class="completed">
       <h3 class="h3">Completed</h3>
       <ul id="completed">
-        <li class="task-list"><input  type="checkbox" class="task-list__checkbox" checked><label class="completed-task task-item">See the Doctor</label><input type="text" class="completed__input task__input task-item"><button class="edit-button btn">Edit</button><button class="delete-button btn"><img class="btn__img" src="./remove.svg" alt="Remove item button"></button></li>
+        <li class="task-list"><input  type="checkbox" class="checkbox" checked><label class="completed__task task-item">See the Doctor</label><input type="text" class="completed__input task-input task-item"><button class="edit-button btn">Edit</button><button class="delete-button btn"><img class="btn__img" src="./remove.svg" alt="Remove item button"></button></li>
       </ul>
     </section>
   </main>
