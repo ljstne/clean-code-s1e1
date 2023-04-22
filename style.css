@@ -161,12 +161,12 @@ button{
 
 /* Edit Task */
 
-.edit-tasks__input,
+.edit-tasks .task-input,
 .completed__input {
     display: none;
 }
 
-.edit-tasks__form .edit-tasks__input {
+.edit-tasks__form .task-input {
     display: inline-block;
     width: 224px;
 }
